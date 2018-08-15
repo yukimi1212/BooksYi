@@ -12,6 +12,11 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 import java.io.IOException;
 
+/**
+ * Created by milly on 2018/06/24
+ */
+
+
 @Controller
 public class UserController {
     private static final Logger logger = LoggerFactory.getLogger(UserController.class);
