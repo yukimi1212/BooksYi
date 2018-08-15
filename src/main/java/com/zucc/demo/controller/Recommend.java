@@ -4,11 +4,15 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
+/**
+ * Created by milly on 2018/06/24
+ */
+
 public class Recommend {
     public static double getSimilarDegree(String[] strArray1, String[] strArray2)
     {
-        Map<String, double[]> vectorSpace = new HashMap<String, double[]>();
-        double[] itemCountArray = null;
+        Map<String, double[]> vectorSpace = new HashMap<>();
+        double[] itemCountArray;
 
         for(int i=0; i<strArray1.length; ++i)
         {
